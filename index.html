@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio - Elias</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icon.min.css" />
+
+
+</head>
+<body>
+
+<div class="animated-icons-bg"></div>
+
+<header>
+<nav>
+  <div class="logo">Elias Garcia Lujan</div>
+
+  <ul>
+    <li><a href="#about" data-translate="nav-about">Sobre mí</a></li>
+    <li><a href="#projects" data-translate="nav-projects">Proyectos</a></li>
+    <li><a href="#contact" data-translate="nav-contact">Contacto</a></li>
+  </ul>  
+
+  <!-- Banderas -->
+<div id="custom-lang-select" class="custom-select">
+  <div class="selected">
+    <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/flags/4x3/es.svg" alt="es" />
+    <i class="fas fa-chevron-down"></i>
+  </div>
+  <ul class="options">
+    <li data-lang="es" data-flag="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/flags/4x3/es.svg">
+      <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/flags/4x3/es.svg" alt="es" />
+    </li>
+    <li data-lang="en" data-flag="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/flags/4x3/gb.svg">
+      <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/flags/4x3/gb.svg" alt="en" />
+    </li>
+    <li data-lang="fr" data-flag="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/flags/4x3/fr.svg">
+      <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/flags/4x3/fr.svg" alt="fr" />
+    </li>
+  </ul>
+</div>
+</nav>
+</header>
+
+<main>
+  <!-- Hero Intro -->
+<section id="hero">
+  <h1 data-translate="hero-title">¿Quién es Elias?</h1>
+</section>
+
+<!-- Sobre mí -->
+<section id="about">
+  <img src="IMG/Perfil.png" alt="Tu foto" />
+  <div>
+    <p data-translate="about-text">
+      Soy un desarrollador apasionado por crear aplicaciones web modernas y eficientes.
+    </p>
+  </div>
+</section>
+
+
+  <!-- Proyectos -->
+  <section id="projects">
+    <h2 data-translate="projects-title">Proyectos destacados</h2>
+    <div class="project-list" id="project-list">
+      <!-- Los proyectos se insertarán aquí con JS -->
+    </div>
+  </section>
+
+  <!-- Contacto -->
+<section id="contact">
+  <h2 data-translate="contact-title">Contacto</h2>
+  <p data-translate="contact-text">Puedes encontrarme en estas redes sociales:</p>
+  <div class="social-links">
+    <a href="https://github.com/c1fon" target="_blank" aria-label="GitHub" title="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn" title="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="mailto:elias.garcia.lujan03@gmail.com" aria-label="Email" title="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

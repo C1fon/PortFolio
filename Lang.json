@@ -1,0 +1,36 @@
+
+{
+  "es": {
+    "nav-about": "Sobre mí",
+    "nav-projects": "Proyectos",
+    "nav-certificates":"Certificados",
+    "nav-contact": "Contacto",
+    "hero-title": "¿Quién es Elias?",
+    "about-text": "Soy un desarrollador apasionado por crear aplicaciones web modernas y eficientes.",
+    "projects-title": "Proyectos destacados",
+    "contact-title": "Contacto",
+    "contact-text": "Puedes encontrarme en estas redes sociales:"
+  },
+  "en": {
+    "nav-about": "About Me",
+    "nav-projects": "Projects",
+    "nav-certificates":"Certificates",
+    "nav-contact": "Contact",
+    "hero-title": "Who's Elias?",
+    "about-text": "I'm a passionate developer focused on building modern and efficient web applications.",
+    "projects-title": "Highlighted Projects",
+    "contact-title": "Contact",
+    "contact-text": "You can find me on these platforms:"
+  },
+  "fr": {
+    "nav-about": "À propos",
+    "nav-projects": "Projets",
+    "nav-certificates":"Certificat", 
+    "nav-contact": "Contact",
+    "hero-title": "Qui est Elias ?",
+    "about-text": "Je suis un développeur passionné par la création d'applications web modernes et efficaces.",
+    "projects-title": "Projets en vedette",
+    "contact-title": "Contact",
+    "contact-text": "Vous pouvez me trouver sur ces réseaux sociaux :"
+  }  
+}
