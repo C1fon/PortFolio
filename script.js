@@ -11,21 +11,21 @@ const projects = [
     description: "Juego Clasico de Memoria.",
     link: "https://github.com/C1fon/Memory-Game",
     demo: "https://c1fon.github.io/Memory-Game/",
-    image: "https://github.com/C1fon/PortFolio/blob/main/IMG/Proyecto1.PNG"
+    image: "IMG/Proyecto1.png"
   },
   {
     title: "IP-Calculator",
     description: "Calculadora de Redes.",
     link: "https://github.com/C1fon/Ip-Calculator",
     demo: "https://c1fon.github.io/Ip-Calculator/",
-    image: "https://github.com/C1fon/PortFolio/blob/main/IMG/Proyecto2.PNG"
+    image: "IMG/Proyecto2.png"
   },
   {
     title: "Google Maps Test",
     description: "Api de Google Maps.",
     link: "https://github.com/C1fon/Google-Maps-Api",
     demo: "https://c1fon.github.io/Google-Maps-Api/",
-    image: "https://github.com/C1fon/PortFolio/blob/main/IMG/Proyecto3.PNG"
+    image: "IMG/Proyecto3.png"
   },
 ];
 
