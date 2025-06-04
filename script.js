@@ -103,6 +103,28 @@ function setLanguage(lang) {
   getProjects(); // Obtener proyectos traducidos y renderizarlos
   localStorage.setItem('preferredLang', currentLang); // Guardar preferencia en localStorage
 
+  // Cambiar el favicon dinámicamente
+  const favicon = document.getElementById('favicon');
+  let flagUrl = '';
+
+  // Asignar el favicon dependiendo del idioma
+  switch (lang) {
+    case 'es':
+      flagUrl = 'https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/flags/4x3/es.svg';
+      break;
+    case 'en':
+      flagUrl = 'https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/flags/4x3/gb.svg';
+      break;
+    case 'fr':
+      flagUrl = 'https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/flags/4x3/fr.svg';
+      break;
+    default:
+      flagUrl = 'https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/flags/4x3/es.svg';
+  }
+
+  // Actualizar el favicon
+  favicon.setAttribute('href', flagUrl);
+
   // Actualizar visualmente el dropdown con la opción seleccionada (bandera y nombre)
   const optionToSelect = [...options.children].find(opt => opt.getAttribute('data-lang') === lang);
   if (optionToSelect) {
