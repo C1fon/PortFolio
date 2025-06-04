@@ -19,6 +19,11 @@
     "personal-address-label": "Dirección",
     "personal-email-label": "Email",
     "skills-title": "Habilidades",
+    "education":"Educación",
+    "education1":"FP Grado Superior DAW",
+    "education1.1":"Instituto de Educación Secundaria y Ciclos Formativos San Andrés",
+    "education2":"FP Grado medio GA",
+    "education2.2":"Centro de FP María Auxiliadora Salesianas León",
     "projects": [
       {
         "title": "Juego de memoria",
@@ -63,6 +68,11 @@
     "personal-address-label": "Address",
     "personal-email-label": "Email",
     "skills-title": "Skills",
+    "education":"Education",
+    "education1":"FP High degree DAW",
+    "education1.1":"San Andrés Secondary Education and Vocational Training Institute",
+    "education2":"FP middle degree GA",
+    "education2.2":"Salesian Schools of Mary Help of Christians",
     "projects": [
       {
         "title": "Memory-Card Game",
@@ -107,6 +117,11 @@
     "personal-address-label": "Adresse",
     "personal-email-label": "Email",
     "skills-title": "Compétences",
+    "education":"Éducation",
+    "education1":"FP supérieure DAW",
+    "education1.1":"Lycée de San Andrés",
+    "education2":"FP intermédiaire GA",
+    "education2.2":"Écoles salésiennes de Marie Auxiliatrice",
     "projects": [
       {
         "title": "Jeu-cartes mémoire",

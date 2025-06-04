@@ -47,6 +47,8 @@ nav ul {
   display: flex;
   gap: 1.5rem;
 }
+
+
 nav ul li a {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.8rem;
