@@ -360,3 +360,102 @@ main {
   object-fit: cover;
   border-radius: 2px;
 }
+
+
+/* Sección Datos Personales */
+#personal-data {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 4rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#personal-data h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1f2937;
+}
+
+.personal-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  font-size: 1.125rem;
+  color: #374151;
+}
+
+.personal-item strong {
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.personal-item span {
+  color: #4b5563;
+}
+
+.personal-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive para dispositivos pequeños */
+@media (max-width: 600px) {
+  #personal-data {
+    padding: 1.5rem;
+  }
+
+  .personal-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .personal-item strong {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Sección Habilidades */
+#skills {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skill {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.skill img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+}

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfolio - Elias</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
@@ -20,9 +20,9 @@
   <div class="logo">Elias Garcia Lujan</div>
 
   <ul>
-    <li><a href="#about" data-translate="nav-about">Sobre mí</a></li>
-    <li><a href="#projects" data-translate="nav-projects">Proyectos</a></li>
-    <li><a href="#contact" data-translate="nav-contact">Contacto</a></li>
+    <li><a href="#about" data-translate="nav-about"></a></li>
+    <li><a href="#projects" data-translate="nav-projects"></a></li>
+    <li><a href="#contact" data-translate="nav-contact"></a></li>
   </ul>  
 
   <!-- Banderas -->
@@ -49,7 +49,7 @@
 <main>
   <!-- Hero Intro -->
 <section id="hero">
-  <h1 data-translate="hero-title">¿Quién es Elias?</h1>
+  <h1 data-translate="hero-title"></h1>
 </section>
 
 <!-- Sobre mí -->
@@ -57,15 +57,60 @@
   <img src="IMG/Perfil.png" alt="Tu foto" />
   <div>
     <p data-translate="about-text">
-      Soy un desarrollador apasionado por crear aplicaciones web modernas y eficientes.
     </p>
   </div>
 </section>
 
+<!-- Datos Personales -->
+<section id="personal-data">
+  <h2 data-translate="personal-data-title"></h2>
+  <ul class="personal-info">
+    <li><strong data-translate="personal-name-label"></strong>: <span data-translate="personal-name"></span></li>
+    <li><strong data-translate="personal-birthdate-label"></strong>: <span data-translate="personal-birthdate"></span></li>
+    <li><strong data-translate="personal-address-label"></strong>: <span data-translate="personal-address"></span></li>
+    <li><strong data-translate="personal-email-label"></strong>: <a href="mailto:elias.garcia.lujan03@gmail.com" data-translate="personal-email"></a></li>
+  </ul>
+</section>
+
+<!-- Sección Habilidades -->
+<section id="skills">
+  <h2 data-translate="skills-title"></h2>
+  <div class="skills-icons">
+    <div class="skill" title="HTML5">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"/>
+    </div>
+    <div class="skill" title="CSS3">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"/>
+    </div>
+    <div class="skill" title="JavaScript">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"/>
+    </div>
+    <div class="skill" title="Java">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"/>
+    </div>
+    <div class="skill" title="Python">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"/>
+    </div>
+    <div class="skill" title="Lua">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" height="40" alt="lua logo"/>
+    </div>
+    <div class="skill" title="MySQL">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"/>
+    </div>
+    <div class="skill" title="DiscordJS">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-original.svg" height="40" alt="discordjs logo"/>
+    </div>
+    <div class="skill" title="Canva">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="40" alt="canva logo"/>
+    </div>
+  </div>
+</section>
+
+
 
   <!-- Proyectos -->
   <section id="projects">
-    <h2 data-translate="projects-title">Proyectos destacados</h2>
+    <h2 data-translate="projects-title"></h2>
     <div class="project-list" id="project-list">
       <!-- Los proyectos se insertarán aquí con JS -->
     </div>
@@ -73,8 +118,8 @@
 
   <!-- Contacto -->
 <section id="contact">
-  <h2 data-translate="contact-title">Contacto</h2>
-  <p data-translate="contact-text">Puedes encontrarme en estas redes sociales:</p>
+  <h2 data-translate="contact-title"></h2>
+  <p data-translate="contact-text"></p>
   <div class="social-links">
     <a href="https://github.com/c1fon" target="_blank" aria-label="GitHub" title="GitHub">
       <i class="fab fa-github"></i>

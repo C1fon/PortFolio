@@ -1,36 +1,134 @@
-
 {
   "es": {
     "nav-about": "Sobre mí",
     "nav-projects": "Proyectos",
-    "nav-certificates":"Certificados",
+    "nav-certificates": "Certificados",
     "nav-contact": "Contacto",
     "hero-title": "¿Quién es Elias?",
     "about-text": "Soy un desarrollador apasionado por crear aplicaciones web modernas y eficientes.",
     "projects-title": "Proyectos destacados",
     "contact-title": "Contacto",
-    "contact-text": "Puedes encontrarme en estas redes sociales:"
+    "contact-text": "Puedes encontrarme en estas redes sociales:",
+    "personal-data-title": "Datos Personales",
+    "personal-name": "Elias Garcia Lujan",
+    "personal-birthdate": "25 de Mayo, 2003",
+    "personal-address": "León, España",
+    "personal-email": "elias.garcia.lujan03@gmail.com",
+    "personal-name-label": "Nombre",
+    "personal-birthdate-label": "Fecha de Nacimiento",
+    "personal-address-label": "Dirección",
+    "personal-email-label": "Email",
+    "skills-title": "Habilidades",
+    "projects": [
+      {
+        "title": "Juego de memoria",
+        "description": "Juego Clásico de Memoria.",
+        "link": "https://github.com/C1fon/Memory-Game",
+        "demo": "https://c1fon.github.io/Memory-Game/",
+        "image": "IMG/Proyecto1.png"
+      },
+      {
+        "title": "Calculadora de IP",
+        "description": "Calculadora de Ips y Redes.",
+        "link": "https://github.com/C1fon/Ip-Calculator",
+        "demo": "https://c1fon.github.io/Ip-Calculator/",
+        "image": "IMG/Proyecto2.png"
+      },
+      {
+        "title": "Google Maps Test",
+        "description": "Api de Google Maps.",
+        "link": "https://github.com/C1fon/Google-Maps-Api",
+        "demo": "https://c1fon.github.io/Google-Maps-Api/",
+        "image": "IMG/Proyecto3.png"
+      }
+    ]
   },
   "en": {
     "nav-about": "About Me",
     "nav-projects": "Projects",
-    "nav-certificates":"Certificates",
+    "nav-certificates": "Certificates",
     "nav-contact": "Contact",
     "hero-title": "Who's Elias?",
     "about-text": "I'm a passionate developer focused on building modern and efficient web applications.",
     "projects-title": "Highlighted Projects",
     "contact-title": "Contact",
-    "contact-text": "You can find me on these platforms:"
+    "contact-text": "You can find me on these platforms:",
+    "personal-data-title": "Personal Data",
+    "personal-name": "Elias Garcia Lujan",
+    "personal-birthdate": "May 25, 2003",
+    "personal-address": "León, Spain",
+    "personal-email": "elias.garcia.lujan03@gmail.com",
+    "personal-name-label": "Name",
+    "personal-birthdate-label": "Birthdate",
+    "personal-address-label": "Address",
+    "personal-email-label": "Email",
+    "skills-title": "Skills",
+    "projects": [
+      {
+        "title": "Memory-Card Game",
+        "description": "Classic Memory Game.",
+        "link": "https://github.com/C1fon/Memory-Game",
+        "demo": "https://c1fon.github.io/Memory-Game/",
+        "image": "IMG/Proyecto1.png"
+      },
+      {
+        "title": "IP-Calculator",
+        "description": "Network Calculator.",
+        "link": "https://github.com/C1fon/Ip-Calculator",
+        "demo": "https://c1fon.github.io/Ip-Calculator/",
+        "image": "IMG/Proyecto2.png"
+      },
+      {
+        "title": "Google Maps Test",
+        "description": "Google Maps API.",
+        "link": "https://github.com/C1fon/Google-Maps-Api",
+        "demo": "https://c1fon.github.io/Google-Maps-Api/",
+        "image": "IMG/Proyecto3.png"
+      }
+    ]
   },
   "fr": {
     "nav-about": "À propos",
     "nav-projects": "Projets",
-    "nav-certificates":"Certificat", 
+    "nav-certificates": "Certificat",
     "nav-contact": "Contact",
     "hero-title": "Qui est Elias ?",
     "about-text": "Je suis un développeur passionné par la création d'applications web modernes et efficaces.",
     "projects-title": "Projets en vedette",
     "contact-title": "Contact",
-    "contact-text": "Vous pouvez me trouver sur ces réseaux sociaux :"
-  }  
+    "contact-text": "Vous pouvez me trouver sur ces réseaux sociaux :",
+    "personal-data-title": "Données Personnelles",
+    "personal-name": "Elias Garcia Lujan",
+    "personal-birthdate": "25 Mai, 2003",
+    "personal-address": "León, Espagne",
+    "personal-email": "elias.garcia.lujan03@gmail.com",
+    "personal-name-label": "Nom",
+    "personal-birthdate-label": "Date de naissance",
+    "personal-address-label": "Adresse",
+    "personal-email-label": "Email",
+    "skills-title": "Compétences",
+    "projects": [
+      {
+        "title": "Jeu-cartes mémoire",
+        "description": "Jeu de mémoire classique.",
+        "link": "https://github.com/C1fon/Memory-Game",
+        "demo": "https://c1fon.github.io/Memory-Game/",
+        "image": "IMG/Proyecto1.png"
+      },
+      {
+        "title": "IP-Calculator",
+        "description": "Calculatrice réseau.",
+        "link": "https://github.com/C1fon/Ip-Calculator",
+        "demo": "https://c1fon.github.io/Ip-Calculator/",
+        "image": "IMG/Proyecto2.png"
+      },
+      {
+        "title": "Google Maps Test",
+        "description": "API Google Maps.",
+        "link": "https://github.com/C1fon/Google-Maps-Api",
+        "demo": "https://c1fon.github.io/Google-Maps-Api/",
+        "image": "IMG/Proyecto3.png"
+      }
+    ]
+  }
 }

@@ -4,30 +4,8 @@ let translations = {};
 // Idioma actual seleccionado, por defecto español
 let currentLang = 'es';
 
-// Array con los proyectos que mostrarás en la página
-const projects = [
-  {
-    title: "Memory-Card Game",
-    description: "Juego Clasico de Memoria.",
-    link: "https://github.com/C1fon/Memory-Game",
-    demo: "https://c1fon.github.io/Memory-Game/",
-    image: "IMG/Proyecto1.png"
-  },
-  {
-    title: "IP-Calculator",
-    description: "Calculadora de Redes.",
-    link: "https://github.com/C1fon/Ip-Calculator",
-    demo: "https://c1fon.github.io/Ip-Calculator/",
-    image: "IMG/Proyecto2.png"
-  },
-  {
-    title: "Google Maps Test",
-    description: "Api de Google Maps.",
-    link: "https://github.com/C1fon/Google-Maps-Api",
-    demo: "https://c1fon.github.io/Google-Maps-Api/",
-    image: "IMG/Proyecto3.png"
-  },
-];
+// Array de proyectos vacío inicialmente (se llenará con los datos de lang.json)
+let projects = [];
 
 // Referencia al contenedor donde se insertarán las tarjetas de proyectos
 const projectListEl = document.getElementById('project-list');
@@ -59,6 +37,31 @@ function renderProjects() {
     projectListEl.appendChild(card);
   });
 }
+
+// Función que aplica las traducciones a los elementos que tengan el atributo data-translate
+function applyTranslations(lang) {
+  document.querySelectorAll('[data-translate]').forEach(el => {
+    const key = el.getAttribute('data-translate');
+    // Si hay traducción para la clave en el idioma actual, actualizar el texto
+    if (translations[lang] && translations[lang][key]) {
+      el.textContent = translations[lang][key];
+    }
+  });
+}
+
+// Función que obtiene los proyectos del archivo JSON y los actualiza según el idioma
+function getProjects() {
+  if (translations[currentLang] && translations[currentLang].projects) {
+    projects = translations[currentLang].projects;
+    renderProjects(); // Re-renderizar los proyectos con el nuevo idioma
+  }
+}
+
+// Referencias al dropdown personalizado de idioma
+const customSelect = document.getElementById('custom-lang-select');
+const selected = customSelect.querySelector('.selected'); // Elemento que muestra la opción seleccionada
+const options = customSelect.querySelector('.options');   // Contenedor con las opciones disponibles
+
 
 // Ejecutar la función para mostrar los proyectos al cargar el script
 renderProjects();
@@ -92,26 +95,12 @@ function createFloatingIcon() {
 // Crear un nuevo icono flotante cada 500ms (medio segundo)
 setInterval(createFloatingIcon, 500);
 
-// Función que aplica las traducciones a los elementos que tengan el atributo data-translate
-function applyTranslations(lang) {
-  document.querySelectorAll('[data-translate]').forEach(el => {
-    const key = el.getAttribute('data-translate');
-    // Si hay traducción para la clave en el idioma actual, actualizar el texto
-    if (translations[lang] && translations[lang][key]) {
-      el.textContent = translations[lang][key];
-    }
-  });
-}
-
-// Referencias al dropdown personalizado de idioma
-const customSelect = document.getElementById('custom-lang-select');
-const selected = customSelect.querySelector('.selected'); // Elemento que muestra la opción seleccionada
-const options = customSelect.querySelector('.options');   // Contenedor con las opciones disponibles
 
 // Función para cambiar idioma, aplicar traducciones y actualizar UI
 function setLanguage(lang) {
   currentLang = lang; // Actualizar idioma actual
   applyTranslations(currentLang); // Aplicar traducciones al contenido
+  getProjects(); // Obtener proyectos traducidos y renderizarlos
   localStorage.setItem('preferredLang', currentLang); // Guardar preferencia en localStorage
 
   // Actualizar visualmente el dropdown con la opción seleccionada (bandera y nombre)
@@ -158,4 +147,3 @@ window.addEventListener('DOMContentLoaded', () => {
       setLanguage(savedLang); // Aplicar idioma guardado
     });
 });
-
