@@ -1,5 +1,6 @@
 {
   "es": {
+    "elias": "Elias Garcia Lujan",
     "nav-about": "Sobre mí",
     "nav-projects": "Proyectos",
     "nav-certificates": "Certificados",
@@ -49,6 +50,7 @@
     ]
   },
   "en": {
+    "elias": "Elias Garcia Lujan",
     "nav-about": "About Me",
     "nav-projects": "Projects",
     "nav-certificates": "Certificates",
@@ -98,6 +100,7 @@
     ]
   },
   "fr": {
+    "elias": "Elias Garcia Lujan",
     "nav-about": "À propos",
     "nav-projects": "Projets",
     "nav-certificates": "Certificat",
@@ -145,5 +148,55 @@
         "image": "IMG/Proyecto3.png"
       }
     ]
-  }
+  },
+  "ar": {
+  "elias": "إلياس غارسيا لوجان",
+  "nav-about": "عني",
+  "nav-projects": "المشاريع",
+  "nav-certificates": "الشهادات",
+  "nav-contact": "تواصل",
+  "hero-title": "من هو إلياس؟",
+  "about-text": "أنا مطور شغوف ببناء تطبيقات ويب حديثة وفعالة.",
+  "projects-title": "مشاريع مميزة",
+  "contact-title": "تواصل",
+  "contact-text": "يمكنك أن تجدني على هذه المنصات:",
+  "personal-data-title": "البيانات الشخصية",
+  "personal-name": "إلياس غارسيا لوجان",
+  "personal-birthdate": "25 مايو، 2003",
+  "personal-address": "ليون، إسبانيا",
+  "personal-email": "elias.garcia.lujan03@gmail.com",
+  "personal-name-label": "الاسم",
+  "personal-birthdate-label": "تاريخ الميلاد",
+  "personal-address-label": "العنوان",
+  "personal-email-label": "البريد الإلكتروني",
+  "skills-title": "المهارات",
+  "education": "التعليم",
+  "education1": "دورة FP المتقدمة في تطوير تطبيقات الويب (DAW)",
+  "education1.1": "معهد سان أندريس للتعليم الثانوي والتدريب المهني",
+  "education2": "دورة FP المتوسطة في الإدارة (GA)",
+  "education2.2": "مركز ماري أوسييادورا - مدارس الساليزيان في ليون",
+  "projects": [
+    {
+      "title": "لعبة الذاكرة",
+      "description": "لعبة ذاكرة كلاسيكية.",
+      "link": "https://github.com/C1fon/Memory-Game",
+      "demo": "https://c1fon.github.io/Memory-Game/",
+      "image": "IMG/Proyecto1.png"
+    },
+    {
+      "title": "حاسبة IP",
+      "description": "حاسبة الشبكات و IP.",
+      "link": "https://github.com/C1fon/Ip-Calculator",
+      "demo": "https://c1fon.github.io/Ip-Calculator/",
+      "image": "IMG/Proyecto2.png"
+    },
+    {
+      "title": "اختبار خرائط Google",
+      "description": "واجهة برمجة تطبيقات خرائط Google.",
+      "link": "https://github.com/C1fon/Google-Maps-Api",
+      "demo": "https://c1fon.github.io/Google-Maps-Api/",
+      "image": "IMG/Proyecto3.png"
+    }
+  ]
+}
 }

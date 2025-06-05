@@ -118,6 +118,9 @@ function setLanguage(lang) {
     case 'fr':
       flagUrl = 'https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/flags/4x3/fr.svg';
       break;
+    case 'ar':
+      flagUrl = 'https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/flags/4x3/sa.svg';
+      break;
     default:
       flagUrl = 'https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/flags/4x3/es.svg';
   }
